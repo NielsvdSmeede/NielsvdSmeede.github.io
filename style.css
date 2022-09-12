@@ -1,3 +1,5 @@
+/* Main style */
+
 .mainBody {
     position: absolute;
     background-color: #dcdcdc;
@@ -10,11 +12,6 @@
     padding-right: 100%;
     padding-bottom: 100%;
 }
-
-/* 
-.mainBody h1{
-    position: absolute;
-} */
 
 .topnav {
     overflow: hidden;
@@ -83,12 +80,30 @@
     color: #fac8c8;
 }
 
-.photos {
+/* Home */
+
+
+
+/* Profile */
+
+#photo {
     float: right;
     width: 120px;
     padding-left: 75px;
 }
 
+#video {
+    float: right;
+    padding-left: 75px;
+}
+
+
+/* Dashboard */
+table,
+th,
+td {
+    border: 1px solid black;
+}
 
 
 /* FAQ */
@@ -136,3 +151,6 @@ summary:hover {
 summary::-webkit-details-marker {
     display: none;
 }
+
+
+/* Blog */
