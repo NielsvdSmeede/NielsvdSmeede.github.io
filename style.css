@@ -99,10 +99,47 @@
 
 
 /* Dashboard */
-table,
-th,
-td {
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+td,
+th {
     border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.gradeSufficient {
+    color: white;
+    background-color: green;
+    width: 33%;
+    font-weight: 600;
+}
+
+.gradeInsufficient {
+    color: white;
+    background-color: red;
+    width: 33%;
+    font-weight: 600;
+}
+
+.gradeNA {
+    background-color: orange;
+    width: 33%;
+    font-weight: 600;
+}
+
+
+#progressBar {
+    width: 100%;
+    height: 20px;
+}
+
+#progressBarLabel b{
+    color: red;
 }
 
 
