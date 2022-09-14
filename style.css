@@ -191,3 +191,15 @@ summary::-webkit-details-marker {
 
 
 /* Blog */
+.blogPosts {
+    background-color: rgb(175, 175, 175);
+    margin: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.blogPosts a {
+    color: blue;
+}
