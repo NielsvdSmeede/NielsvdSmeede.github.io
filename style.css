@@ -1,5 +1,4 @@
 /* Main style */
-
 .mainBody {
     position: absolute;
     background-color: #dcdcdc;
@@ -81,12 +80,23 @@
 }
 
 /* Home */
+#photo-hu {
+    float: right;
+    width: 150px;
+    padding-left: 75px;
 
+}
+
+#photo-code{
+    float: right;
+    width: 300px;
+    padding-left: 75px;
+
+}
 
 
 /* Profile */
-
-#photo {
+#photo-niels {
     float: right;
     width: 120px;
     padding-left: 75px;
