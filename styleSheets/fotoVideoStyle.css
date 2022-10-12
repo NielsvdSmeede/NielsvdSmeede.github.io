@@ -1,3 +1,4 @@
+/* Stylesheet for photos and videos throughout the entire website */
 /* Top nav hz logo */
 #hzlogo {
     float: left;
@@ -28,4 +29,11 @@
 #video {
     float: right;
     padding-left: 75px;
+}
+
+/* Blog */
+.blogPosts img {
+    float: right;
+    height: 150px;
+    padding-left: 25px;
 }
