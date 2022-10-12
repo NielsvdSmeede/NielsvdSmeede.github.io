@@ -1,7 +1,8 @@
+/* Stylesheet for main text (all "normal" text) throughout the entire website */
 .mainBody {
     position: absolute;
-    background-color: #dcdcdc;
-    color: black;
+    /* background-color: #dcdcdc; */
+    color: white;
     text-align: left;
     padding-top: 100px;
     padding-left: 300px;
@@ -9,4 +10,18 @@
     width: 60%;
     padding-right: 100%;
     padding-bottom: 100%;
+    background-image: url("../fotovideo/codingBackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Link design */
+.mainBody a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.mainBody a:hover {
+    color: #f748b4;
 }
